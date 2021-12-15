@@ -20,6 +20,9 @@
           "libs/bnd/web/home/ui/src/**/*.html"
         ]
       }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version"
     }
   },
   "tags": ["web"]
