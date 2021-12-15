@@ -2,6 +2,10 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+# [2.2.0](https://github.com/bndF1/nx-bnd/compare/bnd-web-auth-ui-2.1.1...bnd-web-auth-ui-2.2.0) (2021-12-15)
+
+
+
 ## [2.1.1](https://github.com/bndF1/nx-bnd/compare/bnd-web-auth-ui-2.1.0...bnd-web-auth-ui-2.1.1) (2021-12-15)
 
 
