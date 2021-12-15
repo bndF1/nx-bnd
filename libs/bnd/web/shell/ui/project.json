@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/bnd/web/shell/ui",
+  "sourceRoot": "libs/bnd/web/shell/ui/src",
+  "prefix": "bnd-shell-ui",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/bnd/web/shell/ui"],
+      "options": {
+        "jestConfig": "libs/bnd/web/shell/ui/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/bnd/web/shell/ui/src/**/*.ts",
+          "libs/bnd/web/shell/ui/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/bnd/web/shell/feature",
+  "sourceRoot": "libs/bnd/web/shell/feature/src",
+  "prefix": "bnd-shell",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/bnd/web/shell/feature"],
+      "options": {
+        "jestConfig": "libs/bnd/web/shell/feature/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/bnd/web/shell/feature/src/**/*.ts",
+          "libs/bnd/web/shell/feature/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

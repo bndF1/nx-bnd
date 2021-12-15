@@ -5,6 +5,8 @@
     "bnd-web-auth-ui": "libs/bnd/web/auth/ui",
     "bnd-web-home-feature": "libs/bnd/web/home/feature",
     "bnd-web-home-ui": "libs/bnd/web/home/ui",
+    "bnd-web-shell-feature": "libs/bnd/web/shell/feature",
+    "bnd-web-shell-ui": "libs/bnd/web/shell/ui",
     "nx-bnd": "apps/nx-bnd",
     "nx-bnd-e2e": "apps/nx-bnd-e2e"
   }
