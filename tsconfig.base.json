@@ -15,6 +15,11 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@bnd/bnd/web/landing/feature": [
+        "libs/bnd/web/landing/feature/src/index.ts"
+      ],
+      "@bnd/bnd/web/shell/feature": ["libs/bnd/web/shell/feature/src/index.ts"],
+      "@bnd/bnd/web/shell/ui": ["libs/bnd/web/shell/ui/src/index.ts"],
       "@bnd/web/auth/feature": ["libs/bnd/web/auth/feature/src/index.ts"],
       "@bnd/web/auth/ui": ["libs/bnd/web/auth/ui/src/index.ts"],
       "@bnd/web/home/feature": ["libs/bnd/web/home/feature/src/index.ts"],

@@ -1,14 +1,14 @@
 {
   "projectType": "library",
-  "root": "libs/bnd/web/home/feature",
-  "sourceRoot": "libs/bnd/web/home/feature/src",
-  "prefix": "bnd",
+  "root": "libs/bnd/web/shell/ui",
+  "sourceRoot": "libs/bnd/web/shell/ui/src",
+  "prefix": "bnd-shell-ui",
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/bnd/web/home/feature"],
+      "outputs": ["coverage/libs/bnd/web/shell/ui"],
       "options": {
-        "jestConfig": "libs/bnd/web/home/feature/jest.config.js",
+        "jestConfig": "libs/bnd/web/shell/ui/jest.config.js",
         "passWithNoTests": true
       }
     },
@@ -16,8 +16,8 @@
       "executor": "@nrwl/linter:eslint",
       "options": {
         "lintFilePatterns": [
-          "libs/bnd/web/home/feature/src/**/*.ts",
-          "libs/bnd/web/home/feature/src/**/*.html"
+          "libs/bnd/web/shell/ui/src/**/*.ts",
+          "libs/bnd/web/shell/ui/src/**/*.html"
         ]
       }
     },
@@ -25,5 +25,5 @@
       "executor": "@jscutlery/semver:version"
     }
   },
-  "tags": ["web"]
+  "tags": []
 }
