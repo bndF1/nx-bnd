@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/bnd/web/home/ui",
+  "sourceRoot": "libs/bnd/web/home/ui/src",
+  "prefix": "bnd",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/bnd/web/home/ui"],
+      "options": {
+        "jestConfig": "libs/bnd/web/home/ui/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/bnd/web/home/ui/src/**/*.ts",
+          "libs/bnd/web/home/ui/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": ["web"]
+}

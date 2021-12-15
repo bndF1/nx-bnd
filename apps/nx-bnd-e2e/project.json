@@ -1,0 +1,28 @@
+{
+  "root": "apps/nx-bnd-e2e",
+  "sourceRoot": "apps/nx-bnd-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/nx-bnd-e2e/cypress.json",
+        "devServerTarget": "nx-bnd:serve:development"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "nx-bnd:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/nx-bnd-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["nx-bnd"]
+}

@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/bnd/web/auth/ui",
+  "sourceRoot": "libs/bnd/web/auth/ui/src",
+  "prefix": "bnd",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/bnd/web/auth/ui"],
+      "options": {
+        "jestConfig": "libs/bnd/web/auth/ui/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/bnd/web/auth/ui/src/**/*.ts",
+          "libs/bnd/web/auth/ui/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": ["web"]
+}

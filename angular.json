@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "projects": {
+    "bnd-web-auth-feature": "libs/bnd/web/auth/feature",
+    "bnd-web-auth-ui": "libs/bnd/web/auth/ui",
+    "bnd-web-home-feature": "libs/bnd/web/home/feature",
+    "bnd-web-home-ui": "libs/bnd/web/home/ui",
+    "nx-bnd": "apps/nx-bnd",
+    "nx-bnd-e2e": "apps/nx-bnd-e2e"
+  }
+}
