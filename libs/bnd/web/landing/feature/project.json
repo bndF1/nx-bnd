@@ -1,0 +1,42 @@
+{
+  "projectType": "library",
+  "root": "libs/bnd/web/landing/feature",
+  "sourceRoot": "libs/bnd/web/landing/feature/src",
+  "prefix": "bnd",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/angular:ng-packagr-lite",
+      "outputs": ["dist/libs/bnd/web/landing/feature"],
+      "options": {
+        "project": "libs/bnd/web/landing/feature/ng-package.json"
+      },
+      "configurations": {
+        "production": {
+          "tsConfig": "libs/bnd/web/landing/feature/tsconfig.lib.prod.json"
+        },
+        "development": {
+          "tsConfig": "libs/bnd/web/landing/feature/tsconfig.lib.json"
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/bnd/web/landing/feature"],
+      "options": {
+        "jestConfig": "libs/bnd/web/landing/feature/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/bnd/web/landing/feature/src/**/*.ts",
+          "libs/bnd/web/landing/feature/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": ["web"]
+}
