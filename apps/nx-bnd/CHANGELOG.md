@@ -2,6 +2,51 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+# 0.1.0 (2021-12-15)
+
+
+### Bug Fixes
+
+* change default base ([7bbdb15](https://github.com/bndF1/nx-bnd/commit/7bbdb153842619e150b0ffdb698baa3ad970533b))
+
+
+### Features
+
+* add new libs to shell ([d85d6e6](https://github.com/bndF1/nx-bnd/commit/d85d6e63edb7605dbcb0ed91dc19a7f0193893cb))
+* add semver ([f2a8fff](https://github.com/bndF1/nx-bnd/commit/f2a8fffb9480f82115c03e71594da3b0f7684f1f))
+
+
+
+## 0.0.1 (2021-12-15)
+
+
+### Bug Fixes
+
+* change default base ([7bbdb15](https://github.com/bndF1/nx-bnd/commit/7bbdb153842619e150b0ffdb698baa3ad970533b))
+
+
+### Features
+
+* add new libs to shell ([d85d6e6](https://github.com/bndF1/nx-bnd/commit/d85d6e63edb7605dbcb0ed91dc19a7f0193893cb))
+* add semver ([f2a8fff](https://github.com/bndF1/nx-bnd/commit/f2a8fffb9480f82115c03e71594da3b0f7684f1f))
+
+
+
+# 0.1.0 (2021-12-15)
+
+
+### Bug Fixes
+
+* change default base ([7bbdb15](https://github.com/bndF1/nx-bnd/commit/7bbdb153842619e150b0ffdb698baa3ad970533b))
+
+
+### Features
+
+* add new libs to shell ([d85d6e6](https://github.com/bndF1/nx-bnd/commit/d85d6e63edb7605dbcb0ed91dc19a7f0193893cb))
+* add semver ([f2a8fff](https://github.com/bndF1/nx-bnd/commit/f2a8fffb9480f82115c03e71594da3b0f7684f1f))
+
+
+
 # 1.0.0 (2021-12-15)
 
 
